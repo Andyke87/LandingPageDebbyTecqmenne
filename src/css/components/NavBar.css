@@ -1,9 +1,9 @@
 .navbar {
-    padding: 10px 20px 0px 0px;  /* eerste richting is boven dan rechts, onder en links */
     display: flex;
     align-items: center;  /* Verander van 'start' naar 'center' om te zorgen dat de inhoud gecentreerd is */
     justify-content: flex-end;
     position: relative;
+    background-color: rgba(144, 238, 144, 0.404);
     height: 60px;  /* Verhoog de hoogte van de navbar, zodat er meer ruimte is voor het menu */
   }
   
@@ -30,30 +30,29 @@
     margin-right: 1vh;
     width: 40px;
     height: 40px;
-    color: #fcfcfc;
+    color: black;
   }
   
   .menu-button:hover svg {
-    color: rgba(255, 0, 255, 0.596); /* Hoverkleur */
+    color: white; /* Hoverkleur */
   }
   
   .menu {
     position: absolute;
-    top: 50px;  /* Verander 'bottom' naar 'top' en geef ruimte boven het menu */
-    background-color: none;
-    margin-top: 10px; 
+    top: 60px;  /* Verander 'bottom' naar 'top' en geef ruimte boven het menu */
+    background-color: rgba(144, 238, 144, 0.404);
     padding: 2px;
   }
   
   /* Menu-item styling */
   .menu-item {
     display: block;
-    color: white;
-    padding: 8px;
+    color: black;
+    padding: 10px;
     text-decoration: underline;
   }
   
   .menu-item:hover {
-    background-color: rgba(255, 0, 255, 0.596);
+    color: white; /* Hoverkleur */
   }
   

@@ -14,9 +14,6 @@ const NavBar = () => {
   useEffect(() => {
     // Achtergrond aanpassen afhankelijk van de route
     switch (location.pathname) {
-      case '/':
-        document.body.className = 'home-background';
-        break;
       case '/about':
         document.body.className = 'about-background';
         break;

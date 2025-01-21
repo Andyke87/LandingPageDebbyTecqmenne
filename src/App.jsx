@@ -6,7 +6,7 @@ const App = () => {
   return (
     <main className="landing-page">
 
-      <section className="hero-section">
+      <section className="home-section">
         <h1 >Welkom </h1>
           <section className="services-section">
             <h2>Mijn Diensten</h2>
@@ -24,7 +24,6 @@ const App = () => {
                 <p>Psychoanalyse voor kinderen, jongeren en volwassenen.</p>
               </div>
             </div>
-            <a href="/about">Wie ben ik?</a>
           </section>
       </section>
     </main>

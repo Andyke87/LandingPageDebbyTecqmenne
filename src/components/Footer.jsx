@@ -5,7 +5,7 @@ import '../css/components/Footer.css';
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>© 2024 - Klinisch Psycholoog</p>
+      <p>© 2025 - Klinisch Psycholoog</p>
     </footer>
   );
 }
