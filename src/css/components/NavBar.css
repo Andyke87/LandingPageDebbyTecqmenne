@@ -1,0 +1,59 @@
+.navbar {
+    padding: 10px 20px 0px 0px;  /* eerste richting is boven dan rechts, onder en links */
+    display: flex;
+    align-items: center;  /* Verander van 'start' naar 'center' om te zorgen dat de inhoud gecentreerd is */
+    justify-content: flex-end;
+    position: relative;
+    height: 60px;  /* Verhoog de hoogte van de navbar, zodat er meer ruimte is voor het menu */
+  }
+  
+  .menu-button-container {
+    display: flex;  /* Correcte display waarde */
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(88, 136, 88, 0.219);
+    width: 100%;  /* Zorg ervoor dat het volledige scherm breedte heeft */
+  }
+  
+  /* Menu button */
+  .menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu-button svg {
+    margin-right: 1vh;
+    width: 40px;
+    height: 40px;
+    color: #fcfcfc;
+  }
+  
+  .menu-button:hover svg {
+    color: rgba(255, 0, 255, 0.596); /* Hoverkleur */
+  }
+  
+  .menu {
+    position: absolute;
+    top: 50px;  /* Verander 'bottom' naar 'top' en geef ruimte boven het menu */
+    background-color: none;
+    margin-top: 10px; 
+    padding: 2px;
+  }
+  
+  /* Menu-item styling */
+  .menu-item {
+    display: block;
+    color: white;
+    padding: 8px;
+    text-decoration: underline;
+  }
+  
+  .menu-item:hover {
+    background-color: rgba(255, 0, 255, 0.596);
+  }
+  

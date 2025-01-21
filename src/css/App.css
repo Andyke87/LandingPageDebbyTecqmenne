@@ -1,0 +1,100 @@
+/* Home-pagina achtergrond */
+.home-background {
+  background-image: url('../src/assets/coffee.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100vw; 
+  min-height: 100vh; 
+}
+/* About-pagina achtergrond */
+.about-background {
+  background-image: url('../src/assets/bib.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100vw;
+  min-height: 100vh;
+}
+/* Contact-pagina achtergrond */
+.contact-background {
+  background-image: url('../src/assets/home.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100vw;
+  min-height: 100vh;
+}
+/* Practical-pagina achtergrond */
+.practical-background {
+  background-image: url('../src/assets/weg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+/* Algemene fallback instellingen */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #d8c5c5;
+}
+/* Responsieve achtergrondverfijning */
+@media (max-width: 768px) {
+  .home-background, .about-background, .contact-background {
+    background-size: contain; /* Behoudt afbeelding proportioneel als scherm erg klein is */
+  }
+}
+/* Zorg ervoor dat de achtergrond van de body niet het menu verbergt */
+.landing-page {
+  text-align: center;
+}
+/* Welkom deel */
+.hero-section { 
+  background-color: #d2cea160;
+  padding: 10vh 20vh;
+  margin: 0 20%;
+  border-radius: 20px;
+}
+.hero-section h1 {
+  font-size: 4em;
+}
+.hero-sectio h2 {
+  font-size: 3em;
+}
+.hero-section p {
+  font-size: 1.5em;
+}
+.hero-section a {
+  font-size: 1.5em;
+  color: darkblue;
+  margin-top: 50px;
+  text-decoration: underline;
+}
+
+.about-section, .services-section, .contact-section {
+  padding: 5% 10%;
+}
+
+/* Diensten */
+.services-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5vh;
+}
+
+@media (min-width: 768px) {
+  .services-grid, .testimonials-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.service {
+  background-color: rgba(255, 0, 179, 0.61);
+  color : white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 20px 40px rgba(255, 0, 85, 0.733); /* Aangepast naar een meer transparante roze schaduw */
+}

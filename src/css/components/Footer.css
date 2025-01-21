@@ -1,0 +1,10 @@
+.footer{
+    background-color: #333;
+    color: white;
+    text-align: start;
+    padding: 10px;
+    position: fixed;
+    left: 0; /* Plaats de footer links */
+    bottom: 0; /* Plaats de footer onderaan de pagina */
+    width: 100%;
+}

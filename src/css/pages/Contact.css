@@ -1,0 +1,98 @@
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    width: 100%;
+  }
+  
+  .contact-page h1 {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Links uitlijnen */
+    background: #ccbf9c65;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    gap: 16px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 50vh;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: row; /* Plaatst label en input naast elkaar */
+    align-items: start; /* Verzeker gelijke verticale uitlijning */
+    gap: 10px;
+    margin: 0 10px;
+    width: 90%; /* Laat de groep de volledige breedte innemen */
+  }
+  
+  .contact-form label {
+    flex: 0 0 30%; /* Geef label een vaste breedte van 30% */
+    text-align: left; /* Links uitlijnen */
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .input-wrapper {
+    flex: 1; /* Laat de input-wrapper de rest van de ruimte innemen */
+    text-align: left; /* Links uitlijnen */
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%; /* Vul de volledige breedte van de wrapper */
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #eeecec;
+    border-radius: 4px;
+  }
+
+  .character-count {
+    font-size: 12px;
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  #message {
+    height: 150px; /* Hoogte van het tekstgebied aanpassen */
+  }
+  
+  .contact-form button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 16px;
+    width: 50%; /* Breedte van de knop aanpassen */
+  }
+  
+  .contact-form button:hover {
+    background-color: #218838;
+  }
+  
+  @media (max-width: 768px) {
+    .form-group {
+      flex-direction: column; /* Zet label en input onder elkaar op kleine schermen */
+      align-items: flex-start; /* Links uitlijnen */
+    }
+  
+    .input-wrapper {
+      width: 100%; /* Input neemt de volledige breedte in */
+    }
+  
+    .contact-form button {
+      width: 100%; /* Knop neemt de volledige breedte in */
+    }
+  }
+  

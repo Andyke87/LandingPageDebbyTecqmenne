@@ -1,0 +1,24 @@
+.about-section{
+    background-color: #ebebeaa4;
+    padding: 20px 50px;
+    margin: 0 20%;
+    border-radius: 20px;
+}
+.about-section h1{
+    font-size: 4em;
+    color: #1C110B;
+}
+.about-section p{
+    font-size: 1.5em;
+}
+.about-section img{
+    width: 40vh;
+    height: auto;
+    border : 10px solid #1C110B;
+    border-radius: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+        
+}
